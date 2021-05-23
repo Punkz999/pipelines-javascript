@@ -2,6 +2,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker?view=vsts
 pool:
   vmImage: 'Ubuntu 16.04'
+  name: Local_Pool_1
   
 variables:
   imageName: 'nodejssample:$(Build.BuildId)'
